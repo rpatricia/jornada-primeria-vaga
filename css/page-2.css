@@ -1,0 +1,64 @@
+.page-2-body {
+    text-align: center;
+    padding-top: 163px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url(https://i.ibb.co/ZN8Zk8X/background-image.png);
+}
+    
+
+.page-2-title {
+    font-family: 'Cinzel';
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 86px;
+    color:#151718;
+}
+
+.span-2 {
+    color: #DB2777 ;
+}
+
+.page-2-text {
+    color: #2C2E2FE5;
+    
+}
+
+
+.link-1-page-2 {
+    color: #151718 ;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+
+.link-1-page-2:hover {
+    background-color: #DB2777;
+    border-radius: 80px;
+}
+    
+.link-2-page-2 {
+    background: #DB2777;
+    border-radius: 80px;
+    
+}
+    
+
+    
+a.link-3-page-2 {
+    color: #151718 ;
+    display: block;
+    margin-top: 4rem;
+    border-radius: 4rem;
+    background-color: #DB2777;
+    padding:12px 32px ;
+    background-color: transparent;
+
+}
