@@ -1,4 +1,4 @@
-# Jornada Primeira Vaga -Rocketeseat
+# Jornada Primeira Vaga -Rocketseat
 
 ![preview](img/img-1-reademe.png)
 ![preview](img/img-2-reademe.png)
