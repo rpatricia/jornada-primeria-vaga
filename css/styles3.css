@@ -13,6 +13,8 @@ body {
 
     background: url(https://i.ibb.co/BcQvnHW/background-image.png) no-repeat center/cover;
     height: 100vh;
+    display: grid;
+    place-content: center;
 }
 
 h1 {
@@ -55,5 +57,41 @@ a:hover,
     background: #259483;
 }
 
+
+@media (max-width: 992px){
+    .btn-primary {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 160px;
+    }
+}
+
+ 
+@media (max-width: 768px){
+    .btn-primary {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* flex-wrap: wrap; */
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 160px;
+    }
+}
+
+ 
+@media (max-width: 450px){
+    .btn-primary {
+        display: block;
+        flex-wrap: wrap;
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 160px;
+    
+    }
+}
 
  
