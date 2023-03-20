@@ -1,6 +1,6 @@
 # Jornada Primeira Vaga -Rocketseat
 
-![preview](img/img-readme.png)
+![preview](img/readme-capa.png)
 ![preview](img/img-1-reademe.png)
 ![preview](img/img-2-readme.png)
 ![preview](img/img-3-readme.png)
