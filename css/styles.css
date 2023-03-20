@@ -66,3 +66,50 @@ a:hover,
      opacity: 1;
 }
 
+@media(max-width:768px) {
+
+    body {
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        height: 100vh; 
+    }
+
+    body {
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .btn {
+        /* display: flex;
+        flex-wrap: wrap;
+        padding-top: 4rem;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column; */
+        display: flex;
+        flex-direction: column;
+        padding-top: 4rem;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+        
+}
+
+@media(max-width:480px){
+
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        height: 100vh; 
+    }
+  .btn {
+    display: flex;
+        flex-direction: column;
+        padding-top: 4rem;
+        margin-left: 100px;
+        margin-right: 100px;
+  } 
+}
