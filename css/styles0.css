@@ -10,9 +10,10 @@
   outline: none;
   border: none;
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 
-html {
+/* html {
   font-size: 100%;
   overflow-x: hidden;
   scroll-padding-top: 9rem;
@@ -33,7 +34,7 @@ html::-webkit-scrollbar-thumb {
 }
 html::-webkit-scrollbar-thumb:hover {
   background: #97e10d;
-}
+} */
 
 .home {
   background-image: url(../img/Wallpaper\ -\ 1920x1080.png);
@@ -52,7 +53,7 @@ html::-webkit-scrollbar-thumb:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-top: 800px;
+  padding-top: 600px;
   padding-bottom:10px ;
   gap: 16px;
   font-weight: 700;
@@ -73,15 +74,13 @@ a:hover {
   color: #fff;
 }
 
-@media(max-width:516px) {
+@media(max-width:480px) {
     .btn-default {
-        font-size: .8rem;
+        padding: 8px 16px;
     }
 }
-@media(max-width:401px) {
+@media(max-width:px) {
     .btn {
-        display: flex;
-        flex-direction: column;
-        padding-top: 1200px;
+        
     }
 }
