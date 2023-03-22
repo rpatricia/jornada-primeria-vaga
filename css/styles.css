@@ -78,7 +78,7 @@ a:hover,
         display: flex;
         text-align: center;
         justify-content: center;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 }
 
@@ -102,6 +102,5 @@ a:hover,
     }
 }
 
-@media(max-width:768px){}
 
 

@@ -54,14 +54,7 @@ p {
     
 }
 
-a.link-1:hover  {
-    background-color: #DB2777;
-    border-radius: 80px;
-    padding: 12px 32px;
-    margin-top: 2rem;
-    gap: 32px;
-    transition: .6s ease-in-out;
-}
+
     
 a.link-2 {
     color: #151718 ;
@@ -72,22 +65,27 @@ a.link-2 {
     font-size: 20px;
     line-height: 24px;
     
-
 }
-    
 
+ .link-2:hover {
+    background-color: #d41169;
+    padding: 6px 16px;
+    line-height: 12px;
+ }   
+
+ @media(max-width:480px){
+    .links{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 10px;
+        background-color: transparent;
+
+    }
+        
+    a.link-2 {
+        background-color: transparent;
+        padding: 0px;
+    }
+ }
     
-a.link-3 {
-    color: #151718 ;
-    display: block;
-    margin-top: 4rem;
-    border-radius: 4rem;
-    background-color: #DB2777;
-    padding:8px 16px ;
-    /* background-color: transparent; */
-    margin-left: 31.25rem;
-    margin-right: 31.25rem;
-    text-align: center;
-    /* font-family: 'Poppins' ; */
-    font-weight: 700;
-}
